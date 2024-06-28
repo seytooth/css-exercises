@@ -18,6 +18,11 @@ img {
   margin-top: 32px;
 }
 
+.text {
+  width: 200px;
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
