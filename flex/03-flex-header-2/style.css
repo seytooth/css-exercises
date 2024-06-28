@@ -59,3 +59,9 @@ ul {
 .left {
   margin-right: auto;
 }
+
+.left,
+.right,
+ul {
+  gap: 16px;
+}
