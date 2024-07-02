@@ -31,14 +31,15 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .right-links, .left-links {
   display: flex;
   list-style-type: none;
   padding: 0;
-  gap: 8px;
-  margin: 8px;
+  gap: 16px;
 }
 
 a {
