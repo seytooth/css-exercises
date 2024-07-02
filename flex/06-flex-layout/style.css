@@ -33,13 +33,13 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
 }
 
 .right-links, .left-links {
   display: flex;
-  list-style-type: none;
+  list-style: none;
+  margin: 0;
   padding: 0;
   gap: 16px;
 }
@@ -50,15 +50,15 @@ a {
 }
 
 .content {
-  align-content: center;
-  flex-basis: 90vh;
-  text-align: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
 }
 
 button {
-  padding: 8px;
+  padding: 8px 16px;
 }
 
-.input {
-  margin-bottom: 16px;
-}
